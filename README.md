@@ -1,4 +1,5 @@
 # Setup-git-log
+##Add the following code to the git config file
 ui = true
 
 [alias]
@@ -11,3 +12,5 @@ ll = !git l --all
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+	
+![alt text](http://prntscr.com/ppp1t4)
