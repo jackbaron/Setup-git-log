@@ -1,11 +1,10 @@
 # Setup-git-log
-##Add the following code to the git config file
+Add the following code to the git config file
+```ruby
+
 ui = true
-
 [alias]
-
 l = log --graph --pretty=format:'%C(yellow)%h%Creset%C(blue)%d%Creset %C(white bold)%s%Creset %C(white dim)(by %an %ar)%Creset'
-
 ll = !git l --all
 [filter "lfs"]
 	clean = git-lfs clean -- %f
@@ -13,4 +12,5 @@ ll = !git l --all
 	process = git-lfs filter-process
 	required = true
 	
-![alt text](http://prntscr.com/ppp1t4)
+```
+![image](https://raw.githubusercontent.com/jackbaron/Setup-git-log/master/image.png)
